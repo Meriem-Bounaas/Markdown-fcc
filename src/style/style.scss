@@ -1,0 +1,24 @@
+// Resette Css
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;    
+    gap:5px;
+    #editor{
+        padding: 5px;
+        flex-grow: 1;
+        background-color: rgb(68, 68, 68);
+        color: white;
+    }
+    #preview{
+        padding: 25px;
+        flex-grow: 1;
+        
+    }
+}
